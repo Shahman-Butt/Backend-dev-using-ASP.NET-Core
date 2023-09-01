@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e7926527-e035-4e3b-ae49-8707d3708917": {
+      "ProjectGuid": "e7926527-e035-4e3b-ae49-8707d3708917",
+      "DisplayName": "MVC App",
+      "ColorIndex": 0
+    },
+    "9121d83a-cadd-48e9-be37-fa902022e378": {
+      "ProjectGuid": "9121d83a-cadd-48e9-be37-fa902022e378",
+      "DisplayName": "WebForms",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
