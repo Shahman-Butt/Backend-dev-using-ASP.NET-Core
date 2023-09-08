@@ -27,8 +27,17 @@ namespace MVC_App.Controllers
         }
 
 
+        [Route("/")]  //attribute routing overlapping conventional home routing not allowing to work
+        public string message()
+        {
+            return "hello Message";
+        }
 
 
+        public ViewResult ViewMethod()
+        {
+            return View();
+        }
 
     }
 }

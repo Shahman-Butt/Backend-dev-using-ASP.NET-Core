@@ -20,9 +20,12 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+
+//CONVENTIONAL ROUTING
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
 
 
 //app.MapFallbackToController("Index", "Employee"); // Added this to route to Employee/Index by default

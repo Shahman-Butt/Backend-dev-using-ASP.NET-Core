@@ -1,6 +1,4 @@
 ﻿
-@model List<Person>
-
 <h1>People</h1>
 
 <table>
@@ -21,6 +19,10 @@
     </tbody>
 </table>
 
+
+@Html.ActionLink("Employee Page using HTML helper", "Index", "Employee");
+
+<a asp-controller="Employee" asp-action="Index">Employee Page using Tag helper</a>
 
 <form asp-action="Details" method="post">
     <input type="hidden" name="id" value="1" />

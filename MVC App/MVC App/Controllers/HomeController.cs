@@ -12,7 +12,7 @@ namespace MVC_App.Controllers
         {
             _logger = logger;
         }
-
+        [Route("/attribute/routing/home")] //attribute routing overlapping conventional home routing not allowing to work
         public IActionResult Index()
         {
             return View();

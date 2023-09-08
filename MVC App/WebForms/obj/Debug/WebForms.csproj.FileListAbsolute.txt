@@ -1,0 +1,2 @@
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\WebForms\obj\Debug\WebForms.csproj.AssemblyReference.cache
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\WebForms\obj\Debug\WebForms.csproj.CoreCompileInputs.cache
