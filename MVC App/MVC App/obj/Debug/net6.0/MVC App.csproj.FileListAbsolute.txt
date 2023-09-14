@@ -7,22 +7,6 @@ C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\bin\
 C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\bin\Debug\net6.0\MVC App.dll
 C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\bin\Debug\net6.0\ref\MVC App.dll
 C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\bin\Debug\net6.0\MVC App.pdb
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.GeneratedMSBuildEditorConfig.editorconfig
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.AssemblyInfoInputs.cache
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.AssemblyInfo.cs
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.csproj.CoreCompileInputs.cache
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.MvcApplicationPartsAssemblyInfo.cache
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.RazorAssemblyInfo.cache
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.RazorAssemblyInfo.cs
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\staticwebassets.build.json
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\staticwebassets.development.json
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\scopedcss\bundle\MVC App.styles.css
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\scopedcss\projectbundle\MVC App.bundle.scp.css
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.dll
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\ref\MVC App.dll
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.pdb
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.genruntimeconfig.cache
 C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\bin\Debug\net6.0\Humanizer.dll
 C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\bin\Debug\net6.0\MessagePack.dll
 C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\bin\Debug\net6.0\MessagePack.Annotations.dll
@@ -220,6 +204,22 @@ C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\bin\
 C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.MvcApplicationPartsAssemblyInfo.cs
-C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.csproj.CopyComplete
 C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.csproj.AssemblyReference.cache
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.AssemblyInfoInputs.cache
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.AssemblyInfo.cs
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.csproj.CoreCompileInputs.cache
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.MvcApplicationPartsAssemblyInfo.cs
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.MvcApplicationPartsAssemblyInfo.cache
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.RazorAssemblyInfo.cache
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.RazorAssemblyInfo.cs
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\staticwebassets.build.json
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\staticwebassets.development.json
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\scopedcss\bundle\MVC App.styles.css
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\scopedcss\projectbundle\MVC App.bundle.scp.css
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.csproj.CopyComplete
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.dll
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\ref\MVC App.dll
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.pdb
+C:\Extras\My work\Self tasks\Backend dev using ASP.NET Core\MVC App\MVC App\obj\Debug\net6.0\MVC App.genruntimeconfig.cache

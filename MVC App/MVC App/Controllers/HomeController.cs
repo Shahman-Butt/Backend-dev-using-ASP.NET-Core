@@ -12,7 +12,7 @@ namespace MVC_App.Controllers
         {
             _logger = logger;
         }
-        [Route("/attribute/routing/home")] //attribute routing overlapping conventional home routing not allowing to work
+       
         public IActionResult Index()
         {
             return View();
@@ -28,5 +28,19 @@ namespace MVC_App.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
+        [HttpPost]
+        public IActionResult Details([FromBody]string fullName)
+        {
+            // Create a view model to pass the full name to the view
+            var viewModel = new FullNameViewModel
+            {
+                FullName = fullName
+            };
+
+            return PartialView("_FullNamePartial", viewModel);
+        }
+
     }
 }

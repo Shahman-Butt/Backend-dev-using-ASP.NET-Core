@@ -7,18 +7,46 @@ namespace MVC_App.Controllers
 
 
 
+        [Route("/Employee/RoutedIndex")] //attribute routing overlapping conventional /Employee/RoutedIndex routing not allowing to work
         public IActionResult Index()
         {
-            var details = new Employee()
+            var Instance = new Employee
             {
-                name = "Shahman",
-                age = 78,
-                description = "Hello from Shahman"
+                EmployeeName = "Shahman",
+                EmployeeAge = 78,
             };
 
 
-            ViewData["Dets"] = details;
+            ViewData["Instance"] = Instance;
             return View();
         }
+
+        public IActionResult Methodtemp()
+        {
+            var details = new Employee
+            {
+                EmployeeName = "Shahman",
+                EmployeeAge = 78,
+            };
+
+            TempData["Detsa"] = details;
+            TempData["Temp"] = "ShahmanTemp";
+            return View();
+        }
+
+        public IActionResult Methodtemp2()
+        {
+            
+
+            if (TempData["Temp"] == null)
+            {
+                return RedirectToAction("Index"); // Redirect to the "Index" action
+            }
+
+            TempData["Temp2"] = TempData["Temp"].ToString();
+            return View(); // Pass the TempData to the view
+        }
     }
+   
 }
+

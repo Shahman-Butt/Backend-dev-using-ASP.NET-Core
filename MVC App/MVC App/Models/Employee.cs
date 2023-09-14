@@ -2,9 +2,8 @@
 {
     public class Employee
     {
-        public string name { get; set; }    
-        public int age { get; set; }
+        public string EmployeeName { get; set; }    
+        public int EmployeeAge { get; set; }
 
-        public string description { get; set; }
     }
 }

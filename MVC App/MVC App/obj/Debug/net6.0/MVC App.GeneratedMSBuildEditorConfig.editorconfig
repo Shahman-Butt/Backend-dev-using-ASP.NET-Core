@@ -23,6 +23,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Extras/My work/Self tasks/Backend dev using ASP.NET Core/MVC App/MVC App/Views/Employee/methodtemp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcbWV0aG9kdGVtcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Extras/My work/Self tasks/Backend dev using ASP.NET Core/MVC App/MVC App/Views/Employee/Methodtemp2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcTWV0aG9kdGVtcDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Extras/My work/Self tasks/Backend dev using ASP.NET Core/MVC App/MVC App/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -31,12 +39,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Extras/My work/Self tasks/Backend dev using ASP.NET Core/MVC App/MVC App/Views/Home/_FullNamePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfRnVsbE5hbWVQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Extras/My work/Self tasks/Backend dev using ASP.NET Core/MVC App/MVC App/Views/Person/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Extras/My work/Self tasks/Backend dev using ASP.NET Core/MVC App/MVC App/Views/Person/ViewMethod.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXFZpZXdNZXRob2QuY3NodG1s
+[C:/Extras/My work/Self tasks/Backend dev using ASP.NET Core/MVC App/MVC App/Views/Person/Submit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXFN1Ym1pdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Extras/My work/Self tasks/Backend dev using ASP.NET Core/MVC App/MVC App/Views/Person/_PersonDetailsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXF9QZXJzb25EZXRhaWxzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Extras/My work/Self tasks/Backend dev using ASP.NET Core/MVC App/MVC App/Views/Shared/Error.cshtml]

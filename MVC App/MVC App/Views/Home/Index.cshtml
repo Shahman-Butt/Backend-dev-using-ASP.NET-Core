@@ -3,6 +3,32 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Enter Full Name</h1>
+    <input type="text" id="fullName" class="form-control mb-3" placeholder="Full Name">
+    <button id="submitBtn" class="btn btn-primary">Submit</button>
 </div>
+
+<div class="text-center mt-4">
+    <h2 class="display-4">Full Name:</h2>
+    <div id="detailsContainer"></div>
+</div>
+
+<script>
+    document.getElementById('submitBtn').addEventListener('click', function () {
+        // Get the full name from the input field
+        var fullName = document.getElementById('fullName').value;
+        console.log(fullName);
+        debugger;
+        // Perform an AJAX request to the server
+        $.ajax({
+            url: '/Home/Details',
+            method: 'POST',
+            data: JSON.stringify(fullName) ,
+            contentType: 'application/json',
+            success: function (data) {
+                // Update the details container with the response
+                $('#detailsContainer').html(data);
+            }
+        });
+    });
+</script>

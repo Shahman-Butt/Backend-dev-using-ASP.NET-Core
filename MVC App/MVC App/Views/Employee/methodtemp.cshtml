@@ -1,0 +1,16 @@
+﻿
+@{
+
+     var bag = TempData["Detsa"] as MVC_App.Models.Employee;
+}
+
+
+<h1>Methodtemp Method from Employee using TempData to check KEEP method</h1>
+
+<p>Eployee Name:@bag.EmployeeName Employee Age: @bag.EmployeeAge</p>
+
+<p>@TempData["Temp"]</p>
+@{
+    TempData.Keep("Temp");
+}
+<a asp-controller="Employee" asp-action="Methodtemp2">Method to validate Keep()</a>

@@ -1,8 +1,14 @@
 ﻿
 @{
-    var bag = ViewBag.Dets;
+      var inst = ViewData["Instance"] as MVC_App.Models.Employee;
+    //var inst = ViewBag.Instance as MVC_App.Models.Employee;       Can also be used as this
+
 }
 
-<h1>People</h1>
+<h1>Main Index Method from Employee Customer using ViewData</h1>
 
-<p>My name is @bag.name and my age is @bag.age and my description says @bag.description </p>
+
+<p>Hello this is the Employee's name: 
+    @inst.EmployeeName
+    
+</p>

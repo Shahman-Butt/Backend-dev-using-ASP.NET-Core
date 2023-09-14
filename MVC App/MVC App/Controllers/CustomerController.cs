@@ -6,15 +6,14 @@ namespace MVC_App.Controllers
     {
         public IActionResult Index()
         {
-            var details = new Customer()
-            {
-                name = "Shahman",
-                age = 00,
+            var Instance = new Customer {
+                CustomerName = "Shahman",
+                CustomerAge = 00,
             };
 
 
             //ViewData["Dets"] = details;
-            ViewBag.Details = details;  
+            ViewBag.Instance = Instance;  
             
             return View();
 

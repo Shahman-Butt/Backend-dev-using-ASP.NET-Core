@@ -1,5 +1,5 @@
 ﻿
-<h1>People</h1>
+<h1>Main Index Method from Controller People by directly passing values</h1>
 
 <table>
     <thead>
@@ -19,13 +19,44 @@
     </tbody>
 </table>
 
+<h1>HTML HELPERS AND TAG HELPERS</h1>
+
 
 @Html.ActionLink("Employee Page using HTML helper", "Index", "Employee");
 
 <a asp-controller="Employee" asp-action="Index">Employee Page using Tag helper</a>
+<br />
 
-<form asp-action="Details" method="post">
-    <input type="hidden" name="id" value="1" />
-    <button type="submit">View Details</button>
+<h1>SUBMITTING VALUES THROUGH FORM ASP-CONTROLLER</h1>
+
+
+<form asp-controller="Person" asp-action="Submit" method="post">
+    <input type="text" name="fullName" placeholder="Enter Full Name" />
+    <button type="submit">Submit</button>
 </form>
 
+<h1>SUBMITTING VALUES THROUGH AJAX CALL</h1>
+
+<input type="text" id="fullName" />
+<button id="submitBtn">Submit</button>
+<div id="detailsContainer"></div>
+
+<script>
+    document.getElementById('submitBtn').addEventListener('click', function () {
+        // Get the full name from the input field
+        var fullName = document.getElementById('fullName').value;
+        console.log(fullName);
+        debugger;
+        // Perform an AJAX request to the server
+        $.ajax({
+            url: '/Home/Details',
+            method: 'POST',
+            data: JSON.stringify(fullName) ,
+            contentType: 'application/json',
+            success: function (data) {
+                // Update the details container with the response
+                $('#detailsContainer').html(data);
+            }
+        });
+    });
+</script>

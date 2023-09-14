@@ -16,28 +16,47 @@ namespace MVC_App.Controllers
 
             // Pass the list of people to the view
             return View(people);
+            //return View();
+        }
+        [HttpPost]
+        public IActionResult Submit(string fullName)
+        {
+            // Split the full name into first name and last name
+            var names = fullName.Split(' ');
+            var firstName = names.Length > 0 ? names[0] : string.Empty;
+            var lastName = names.Length > 1 ? names[1] : string.Empty;
+
+            // Create a Person object with the extracted names
+            var person = new Person { FirstName = firstName, LastName = lastName };
+
+            // Pass the person object to the "Details" view
+            return View("Submit", person);
         }
 
         [HttpPost]
-        public IActionResult Details(int id)
+        public IActionResult Details([FromBody]string fullName)
         {
-            // Handle form submission and return the details view
-            var person = new Person { Id = id, FirstName = "Sample", LastName = "Person" };
-            return View(person);
+            // Split the full name into first name and last name
+            var names = fullName.Split(' ');
+            var firstName = names.Length > 0 ? names[0] : string.Empty;
+            var lastName = names.Length > 1 ? names[1] : string.Empty;
+
+            // Create a Person object with the extracted names
+            var person = new Person { FirstName = firstName, LastName = lastName };
+
+            // Return a partial view with the person details
+            return PartialView("_PersonDetailsPartial", person);
         }
 
 
-        [Route("/")]  //attribute routing overlapping conventional home routing not allowing to work
-        public string message()
-        {
-            return "hello Message";
-        }
 
 
-        public ViewResult ViewMethod()
-        {
-            return View();
-        }
+        //public string message()
+        //{
+        //    return "hello Message";
+        //}
+
+
 
     }
 }
